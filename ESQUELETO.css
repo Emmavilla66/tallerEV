@@ -1,0 +1,126 @@
+ul {
+  list-style:circle;
+ 
+}
+   li {
+     display:inline;
+      width: 5%;
+      position:relative;
+      font-size: 25px;
+      color:black;
+   }
+    ul li a:hover {
+      background-color: rgb(143, 90, 20);
+      color: white;
+      padding: 5px;
+   }
+   a {
+      text-decoration: none;
+      padding: 5px;
+  }
+  
+
+.menunavegador{
+  display: flex;
+  flex-direction:row-reverse;
+  align-content:flex-end;
+  justify-content:flex-start;
+  
+}
+.barrabusqueda{display:flex;
+flex-direction:row-reverse;}
+
+.logo{display:flex; 
+align-content:flex-end;}
+
+.logo:hover{width: 105px; height: 105px;background-color:goldenrod;}
+
+
+.fototaller{display: flex ;
+align-content: space-around ;}
+.fototaller:hover{width: 210px; height: 210px;background-color:rgb(0, 0, 0);}
+
+
+Body {
+color:black ;
+font-weight: bold;
+font-size: x-large;
+font-family: 'Jomhuria';
+
+text-align:center;
+line-height: 1;
+text-decoration:gray;
+letter-spacing: 2;
+word-spacing: 0;
+list-style-type: armenian;
+background-color:goldenrod;
+background-image: linear-gradient(315deg, goldenrod 0%, rgb(250, 250, 250) 99%);}
+
+.fotoslider { display: flex;
+align-content:flex-end;}
+
+.slider {
+  width: 400px;
+  height: 400px;
+  display: flex;
+  overflow-x: auto;
+}
+.slide {
+  width: 400px;
+  flex-shrink: 0;
+  height: 100%;
+}
+
+.nombrelocal{ color:lightyellow;
+font-size: 150px;
+font-stretch:ultra-expanded;}
+
+
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  background-color: goldenrod;
+  padding: 10px;
+}
+.grid-item {
+  background-color: rgba(255, 255, 255, 0.8);
+  border: 1px solid rgba(0, 0, 0, 0.8);
+  padding: 20px;
+  font-size: 30px;
+  text-align: center;
+}
+
+  section{
+margin: 20px;
+display:inline-flex;
+  vertical-align: top;
+  align-self:center;
+  justify-content:space-evenly;
+  flex-direction:row;
+}
+section article {
+background-color:goldenrod;
+width: 400px;
+height: 350px;
+padding: 40px;
+  box-shadow: 2px 2px 3px;}
+
+.story {
+line-height: 1;
+}
+
+.blog {
+  text-align: center;
+}
+
+.company{
+text-align: center;
+}
+ 
+
+.encuesta {
+  background-color:goldenrod;
+  width: 400px;
+  height: 400px;
+  padding: 40px;
+    box-shadow: 2px 2px 3px;}

@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+
+
+	<title> El taller de Emma.</title>
+	<!-- los detalles estan en el css -->
+	<link rel="stylesheet" type="text/css" href="ESQUELETO.css">
+
+	<!-- Font de google -->
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Jomhuria&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+	<header>
+		<!-- Encabezado -->
+		<br>
+
+		<div class="barrabusqueda">
+			<input type="searchbar" placeholder="Buscar" name="Nombre">
+			<p style="font-size:15px">&#128270;</p>
+		</div>
+
+		<div class="menunavegador">
+			<nav>
+				<ul>
+					<li><a href="Index.html">Home</a></li>
+					<li><a href="Paginas/Encuesta.html">Encuestas</a></li>
+					<li><a href="Paginas/company.html">Company</a></li>
+					<li><a href="Paginas/blog.html">Blog</a></li>
+					<li> <a href="Paginas/Nuestrahistoria.html">Nuestra Historia</a></li>
+				</ul>
+			</nav>
+		</div>
+		<div class="grid-container">
+			<h1><strong> El Taller de Emma</strong></h1>
+		</div>
+
+		<div class="logo">
+			<img src="./Imagenes/Logoemma.JPG" alt="logo" width="100" height="100">
+		</div>
+
+
+
+	</header>
+
+	<main>
+		<div class="razom">
+			<h1><b><u> Quiero Crear tu Joya ideal!</u></b></h1>
+		</div>
+
+		<section class="fotoslider">
+			<div class="slider">
+				<div class="slide" id="slide-1"><img src="Imagenes/longines1268.jpg" alt="Maquinalongines" width="400"
+						height="400"></div>
+				<div class="slide" id="slide-2"><img src="Imagenes/jordan.jpg" alt="PendienteJordan" width="400"
+						height="400"></div>
+				<div class="slide" id="slide-3"><img src="Imagenes/superman.jpg" alt="EscudoJordan" width="400"
+						height="400"></div>
+				<div class="slide" id="slide-4"><img src="Imagenes/anillooro.jpg" alt="AnilloOro" width="400"
+						height="400"></div>
+				<div class="slide" id="slide-5"><img src="Imagenes/hebillas.jpg" alt="HebillasPulera" width="400"
+						height="400"></div>
+			</div>
+		</section>
+		<hr width="75%" color="black" />
+		<section>
+			<article>
+				<h3> Buenas, Soy Emma un Orfebre y relojero que le gusta crear piezas exclusivas. Me gusta crear piezas
+					que sean para siempre y tengan significado. .</h3>
+				<div class="fototaller">
+					<img src="./Imagenes/taller2.jpg" alt="Foto del Taller" width="200px" height="200px">
+				</div>
+			</article>
+		</section>
+		<section class="story">
+			<article>
+				<p> <u> Las joyas han tenido multitud de funciones a lo largo de la historia: </u> </p>
+
+				<ul>
+					<li>-Función social: como símbolo de riqueza o de moda. </li>
+					<br>
+					<li>-Función práctica: como objeto práctico-funcional.</li>
+					<br>
+					<li>-Función simbólica: para indicar estatus o pertenencia.</li>
+					<br>
+					<li>-Función protectora: en forma de amuleto.</li>
+					<br>
+					<li>-Función artística: expresiones subjetivas.</li>
+					<br>
+					<p>Pero lo mejor que el significado se la atribuis vos...</p>
+
+				</ul>
+
+
+			</article>
+		</section>
+		<hr width="75%" color="black" />
+		<!-- Se repite para aplicar una tabla y para poder decidir despues si dejo una tabla o grids -->
+		<div class="grid-container">
+			<div class="grid-item">Servicios que Ofrecemos :</div>
+			<div class="grid-item">*Arreglos de Joyas</div>
+			<div class="grid-item">*Arreglo de Relojes</div>
+			<div class="grid-item">*Cambio de pilas</div>
+			<div class="grid-item">Servicios Especiales :</div>
+			<div class="grid-item">*Pedidos personalizados</div>
+			<div class="grid-item">*Relojes a pedido</div>
+			<div class="grid-item">*Tasacion de Joyas</div>
+		</div>
+
+		<h4><u> DONDE NOS ENCONTATRAS? </u></h4>
+		<p style="font-size:48px">&#9759;</p>
+		<aside><iframe
+				src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d851.2368338175406!2d-64.16526651184196!3d-31.41557705432106!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9432a2a46566103f%3A0x1caf3ecc72a87fbd!2sRosario%20de%20Sta.%20Fe%201349%2C%20X5004%20GBO%2C%20C%C3%B3rdoba!5e0!3m2!1ses!2sar!4v1626220713133!5m2!1ses!2sar"
+				width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe></aside>
+	</main>
+
+	<!-- FOOTER -->
+	<footer>
+
+		<section class="encuesta">
+			<form action="enviar.php" method="post" enctype="application/x-www-form-urlencoded">
+				<h2><u>Contacto</u></h2>
+				Nombre<input type="text" required> <br>
+				Contraseña <input type="password"> <br>
+				Email <input type="number"> <br>
+				Edad <input type="number"> <br>
+				Telefono <input type="text" required> <br>
+
+				<textarea name="" id="" cols="30" rows="10" placeholder="Escriba su consulta aqui"></textarea><br>
+
+				<input type="submit" name="Enviar formulario" />
+				<input type="reset" name="Limpiar Formulario" />
+			</form>
+
+		</section>
+
+
+
+
+
+	</footer>
+
+</body>
+
+</html>
